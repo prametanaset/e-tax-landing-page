@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+@import '@shuriken-ui/nuxt';
+@import '#layers/@cssninja/tairo/theme.css';
+
+/*
+@font-face {
+  font-family: 'SF Pro TH';
+  src: url('/fonts/SFProTH.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'SF Pro TH', sans-serif;
+  --font-heading: 'SF Pro TH', sans-serif;
+}
+*/
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-alt: 'Karla', sans-serif;
+
+  /* เปลี่ยนสีหลักเป็นโทนส้ม */
+  --color-primary-50: var(--color-orange-50);
+  --color-primary-100: var(--color-orange-100);
+  --color-primary-200: var(--color-orange-200);
+  --color-primary-300: var(--color-orange-300);
+  --color-primary-400: var(--color-orange-400);
+  --color-primary-500: var(--color-orange-500);
+  --color-primary-600: var(--color-orange-600);
+  --color-primary-700: var(--color-orange-700);
+  --color-primary-800: var(--color-orange-800);
+  --color-primary-900: var(--color-orange-900);
+
+  /* เปลี่ยนสีรองเป็นโทนกลมเข้ม เช่น slate */
+  --color-muted-50: var(--color-slate-50);
+  --color-muted-100: var(--color-slate-100);
+  --color-muted-200: var(--color-slate-200);
+  --color-muted-300: var(--color-slate-300);
+  --color-muted-400: var(--color-slate-400);
+  --color-muted-500: var(--color-slate-500);
+  --color-muted-600: var(--color-slate-600);
+  --color-muted-700: var(--color-slate-700);
+  --color-muted-800: var(--color-slate-800);
+  --color-muted-900: var(--color-slate-900);
+
+  --tairo-collapse-width-open: 16rem;
+  --tairo-collapse-width-collapsed: 4rem;
+}
